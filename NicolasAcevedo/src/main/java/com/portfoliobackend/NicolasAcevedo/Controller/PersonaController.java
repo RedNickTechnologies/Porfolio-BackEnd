@@ -21,6 +21,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PersonaController {
+    
+    /* COMANDOS PARA EL POSTMAN (PEDIDOS AL SERVIDOR)*/
+    
     @Autowired IPersonaService ipersonaService;
     
     @GetMapping("/personas/traer")

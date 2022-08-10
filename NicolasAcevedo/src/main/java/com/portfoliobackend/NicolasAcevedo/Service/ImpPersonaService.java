@@ -12,6 +12,9 @@ import org.springframework.stereotype.Service;
  * @author RedNickTechnologies
  */
 @Service
+
+/* SE COMPLETA LA INTERFAZ PARA PODER UTILIZAR LOS SERVICIOS DE PERSONA*/
+
 public class ImpPersonaService implements IPersonaService{
     @Autowired IPersonaRepository ipersonaRepository;
 

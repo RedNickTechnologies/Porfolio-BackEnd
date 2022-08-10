@@ -14,6 +14,8 @@ import lombok.Setter;
  * @author RedNickTechnologies
  */
 
+/* CREANDO ENTIDAD PERSONA JUNTO CON SUS CORRESPONDIENTES SETTER Y GETTER*/
+
 @Entity
 public class Persona {
     @Getter @Setter
