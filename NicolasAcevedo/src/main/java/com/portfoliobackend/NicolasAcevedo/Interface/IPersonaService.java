@@ -20,5 +20,8 @@ public interface IPersonaService {
     //Eliminar un objeto de tipo Persona
     public void deletePersona(Long id);
     
+     //Buscar un objeto de tipo Persona
+    public Persona findPersona(Long id);
+    
     
 }
