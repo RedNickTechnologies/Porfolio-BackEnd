@@ -1,3 +1,4 @@
+
 package com.porta.portafolio.Entity;
 
 import javax.persistence.Entity;
@@ -10,8 +11,7 @@ import lombok.*;
 
 @Getter @Setter
 @Entity
-public class Persona {
-    
+public class Proyecto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -20,14 +20,8 @@ public class Persona {
     private String nombre;
     @NotNull
     @Size(min=1,max=600, message = "no me cumple la condicion")
-    private String apellido;
+    private String url;
     @NotNull
     @Size(min=1,max=600, message = "no me cumple la condicion")
-    private String titulo;
-    @NotNull
-    @Size(min=1,max=600, message = "no me cumple la condicion")
-    private String hobbie;
-    @NotNull
-    @Size(min=1,max=6000, message = "no me cumple la condicion")
-    private String img;
+    private String desempenio;
 }
